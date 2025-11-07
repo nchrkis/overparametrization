@@ -21,7 +21,7 @@ Continuous targets use a uniform grid over the stated interval with endpoints in
 ## File list and schemas
 Files are placed under data/. If you prefer different names or paths, update this section and your scripts accordingly.
 
-1) data/hofstadter.csv
+1) hofstadter.csv
 - Description: Hofstadter‑type recursive sequence
 - Domain: n = 1 to 500
 - Columns:
@@ -99,4 +99,11 @@ Files are placed under data/. If you prefer different names or paths, update thi
 - Protocol: Train and evaluate on the same 500 points per dataset to study approximation and optimizer stability without a hold‑out split.
 - Metric: Symmetric Mean Absolute Percentage Error, SMAPE, as reported in the paper.
 
+## License
+Creative Commons Attribution 4.0 International, CC BY 4.0.
+
+## How to cite
+If you use these datasets, please cite the paper:
+
+Christakis N, Fung D, Drikakis D. When Bigger Isn't Better: Non‑monotonic Effects of Depth and Width on Neural Approximation and Generalization. Submitted to Neurocomputing, 2025.
 
