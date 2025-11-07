@@ -107,3 +107,6 @@ If you use these datasets, please cite the paper:
 
 Christakis N, Fung D, Drikakis D. When Bigger Isn't Better: Non‑monotonic Effects of Depth and Width on Neural Approximation and Generalization. Submitted to Neurocomputing, 2025.
 
+## Contact
+Nicholas Christakis, 
+Institute for Advanced Modelling and Simulation, University of Nicosia
