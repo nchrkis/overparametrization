@@ -1,6 +1,6 @@
 # README: Data for "When Bigger Isn't Better: Non‑monotonic Effects of Depth and Width on Neural Approximation and Generalization"
 
-## Repository description blurb
+## Repository description
 Ten one‑dimensional datasets, 500 points each, used to study non‑monotonic effects of depth and width in neural networks for the Christakis–Fung–Drikakis Neurocomputing submission.
 
 ## Overview
