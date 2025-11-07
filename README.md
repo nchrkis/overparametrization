@@ -6,7 +6,7 @@ Ten one‑dimensional datasets, 500 points each, used to study non‑monotonic e
 ## Overview
 This repository contains 10 CSV datasets used in the paper "When Bigger Isn't Better: Non‑monotonic Effects of Depth and Width on Neural Approximation and Generalization" by Nicholas Christakis, Daryl Fung, and Dimitris Drikakis. The manuscript is being submitted to Neurocomputing in 2025.
 
-Each CSV provides a one‑dimensional regression target with 500 samples. Inputs and outputs are scalar. These data are noise free and deterministic. In the study, the same samples are used for training and evaluation to isolate approximation and optimizer stability effects.
+Each CSV provides a one‑dimensional regression target with 500 samples. Inputs and outputs are scalar. These data are noise free and deterministic. In the study, the same samples are used for training and evaluation to isolate approximation and optimiser stability effects.
 
 Common format across files:
 - Rows per file: 500
@@ -96,7 +96,7 @@ Files are placed under data/. If you prefer different names or paths, update thi
 - Task: One‑dimensional regression with scalar input and output.
 - Models: Leaky‑ReLU multilayer perceptrons with depths 1, 5, 10 and widths 20, 50, 100.
 - Optimizer and training: Adam, learning rate 1e‑3, L2 weight decay 1e‑5, 1,000 epochs. Global hyperparameters are fixed within each target family.
-- Protocol: Train and evaluate on the same 500 points per dataset to study approximation and optimizer stability without a hold‑out split.
+- Protocol: Train and evaluate on the same 500 points per dataset to study approximation and optimiser stability without a hold‑out split.
 - Metric: Symmetric Mean Absolute Percentage Error, SMAPE, as reported in the paper.
 
 ## License
